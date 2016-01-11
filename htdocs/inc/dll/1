@@ -1,0 +1,10 @@
+<?php
+
+class BMap{
+
+	public static function getLngLat($city, $locationName){
+		$url = "http://api.map.baidu.com/geocoder/v2/?ak=4T2uM4k0OcyRGMY35xG46Wjg&output=json&address={$locationName}&city={$city}";
+		
+	}
+}
+

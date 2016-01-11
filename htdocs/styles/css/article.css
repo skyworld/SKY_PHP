@@ -1,0 +1,226 @@
+body{
+	margin: 0;
+	padding:0;
+	background: #f3f3f3;
+}
+a{
+	text-decoration:none;
+	color: #000;
+}
+
+.wapper{
+	max-width: 640px;
+	margin: auto;
+}
+
+.tips{
+	background: #fff;
+	height: 73px;
+}
+
+.tips .row1{
+	color: #444;
+	font-size: 16px;
+	padding-top: 10px;
+	font-family: "黑体";
+	text-align: right;
+	padding-right: 20px;
+	display: block;
+	margin: 0px;
+}
+.tips .row2{
+	color: #444;
+	font-family: "黑体";
+	text-align: right;
+	padding-right: 20px;
+	font-size: 14px;
+	display: block;
+	margin-top:12px;
+}
+
+.tips .app_name{
+	color: #1c7fb8;
+	font-weight: bold;
+}
+
+.tips .downBtn{
+	color: #fff;
+	background:#1c7fb8;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.tips .row2{
+	color: #444;
+	font-size: 16px;
+}
+.appLogo{
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	float: left;
+}
+.article{
+	margin:5px 5px 5px 5px;
+	border-radius:3px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 10px;
+}
+
+.avatar{
+	width: 26%;
+	border-radius: 50%;
+	float: left;
+}
+.info{
+	clear: both;
+}
+.info .other{
+	float: left;
+	margin-left: 20px;
+}
+
+.info .other .name{
+	color: #1b7fb8;
+	font-size: 18px;
+	float: left;
+}
+.info .other .age{
+	width: 19px;
+	height: 14px;
+	padding-left: 17px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	padding-top:4px;
+	float: left;
+	margin-left: 6px;
+}
+.info .other .girl{
+	background: url('/styles/img/ageBgGirl.png');
+	background-size:36px, 18px; 
+}
+
+.info .other .boy{
+	background: url('/styles/img/ageBgBoy.png');
+	background-size:36px, 18px; 
+}
+
+.info .other .row{
+	clear: both;
+}
+.info .other .post_time{
+	color: #999;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+.info .other .rent_place{
+	font-size: 14px;
+	padding-top: 8px;
+}
+.info .other .rent_date{
+	font-size: 14px;
+	padding-top: 8px;
+	padding-bottom: 15px;
+}
+
+.detail{
+	clear: both;
+	font-size: 14px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+}
+
+.photos{
+	margin-top: 10px;
+}
+
+.photos img{
+	width: 30%;
+	margin-left: 4px;
+}
+
+.buttom_info{
+	color: #999;
+	font-size: 12px;
+}
+
+.buttom_info .post_place{
+	padding-top: 1px;
+	padding-left: 16px;
+	background: url('/styles/img/locationIcon.png') no-repeat;
+	background-size:11px,15px;
+	float:left;
+}
+
+.buttom_info .views{
+	float: right;
+	padding-top: 1px;
+	color: #777;
+	padding-right: 5px;
+	background: url('/styles/img/viewIcon.png') no-repeat;
+	background-size:15px,11px;
+	background-position:0px;
+	padding-left: 16px;
+}
+
+.buttom_info .reply_cnt{
+	padding-right: 5px;
+	padding-top: 1px;
+	color: #777;
+	background: url('/styles/img/replyIcon.png') no-repeat;
+	float: right;
+	background-size:11px,11px;
+	background-position:0px;
+	padding-left: 16px;
+}
+
+.replys{
+	margin:5px 5px 5px 5px;
+	border-radius:3px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 8px;
+}
+
+.reply_info{
+
+	font-size: 14px;
+	width: 80%;
+	padding-left: 10px;
+	float:right;
+	display: block;
+}
+.reply_avatar{
+	width: 16%;
+	border-radius: 50%;
+	float: left;
+	display: block;
+}
+
+.reply_info .reply_user_name{
+	color: #1b7fb8;
+}
+.reply_info .reply_time{
+	color: #999;
+}
+
+.reply_item{
+
+}
+.replys .line{
+	border-top: 1px solid #ddd;
+	width: 100%;
+	height: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.replys .user_name{
+	color: #1b7fb8;
+}
+
